@@ -1,0 +1,30 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+*.log
+*.log.*
+
+# Local testing
+test_*.py
+reset_db.py
+fix_database.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
